@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './Navbar.css';
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md special-color-dark navbar-dark fixed-top">
+      <nav className="navbar navbar-expand-md special-color-dark navbar-dark">
         <a className="navbar-brand" href="/">UniCS GameDev</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Open Menu">
           <span className="navbar-toggler-icon"></span>

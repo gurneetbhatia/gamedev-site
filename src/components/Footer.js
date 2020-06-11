@@ -4,7 +4,7 @@ import './Footer.css';
 class Footer extends Component {
 	render() {
 		return (
-			<footer className="footer special-color border-bottom fixed-bottom">
+			<footer className="footer special-color border-bottom">
         		<div className="container">
         			<div className="row justify-content-center page-links">
           				<a className="column social-media align-self-center" rel="noopener" target="_blank" href="https://www.instagram.com/gamedev2019/"><i className="fa fa-10x fa-instagram fa-md" aria-hidden="true"></i></a>

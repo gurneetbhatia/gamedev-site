@@ -1,0 +1,45 @@
+.box {
+  position: relative;
+}
+
+.box .img-text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  top: 70%;
+  text-align: center;
+  width: 55%;
+  font-size: 20px;
+  font-weight: bolder;
+  color: gray;
+}
+
+#home-img {
+  width: 100%;
+}
+
+#about-us {
+  background-color: #e1efe3;
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+#about-us h1 {
+  font-weight: bolder;
+}
+
+#wave {
+  height: 150px; overflow: hidden;
+}
+
+#wave svg{
+  height: 100%;
+  width: 100%
+}
+
+#wave path {
+  stroke: none;
+  fill: #e1efe3;
+}
