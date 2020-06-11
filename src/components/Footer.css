@@ -1,0 +1,15 @@
+footer a {
+  color: white;
+}
+.page-links {
+  padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.social-media {
+  margin-right: 20px;
+  font-size: 30px;
+}
+.social-media:hover {
+  color: white;
+}

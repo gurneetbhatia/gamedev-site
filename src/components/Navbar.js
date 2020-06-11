@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md special-color-dark navbar-dark fixed-top">
+      <nav className="navbar navbar-expand-md special-color navbar-dark fixed-top">
         <a className="navbar-brand" href="/">UniCS GameDev</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
