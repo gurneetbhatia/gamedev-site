@@ -4,7 +4,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return(
-      <div>
+      <div className="home">
         <div className="box">
           <img id="home-img" src={require('../Assets/home_top.jpeg')} alt="GameDev Logo Image"/>
           <p className="img-text">A sub-group of UniCS with a focus on Game Development</p>
