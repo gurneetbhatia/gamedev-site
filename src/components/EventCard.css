@@ -4,8 +4,8 @@
   border-style: solid;
   height: 100px;
   padding: 0;
-  transition:height 0.5s;
-  -webkit-transition:height 0.5s;
+  transition:height 0.3s;
+  -webkit-transition:height 0.3s;
   text-align: left;
   /*border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;

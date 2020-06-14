@@ -30,11 +30,31 @@ let events = [
   },
   {
     title: "Event3",
+    datetime: new Date(2020, 3, 23, 12, 0),
+    location: "Kilburn",
+    url: "https://facebook.com"
+  },
+  {
+    title: "Event4",
     datetime: new Date(2020, 6, 23, 12, 0),
     location: "Kilburn",
     url: "https://facebook.com"
   }
 ];
+
+const getUpcomingEvents = (events) => {
+  let today = new Date();
+  var upcoming = [];
+  var past = []
+  events.forEach((event) => {
+    if(event.datetime >= today) {
+      upcoming.push(event);
+    } else {
+      past.push(event);
+    }
+  });
+  return {"upcoming": upcoming, "past": past};
+}
 
 class EventCards extends Component {
   render() {
@@ -54,8 +74,11 @@ class EventCards extends Component {
 
 class Events extends Component {
   render() {
+    let e = getUpcomingEvents(events);
+    let upcoming = e.upcoming;
+    let past = e.past;
     return(
-      <div className="events">
+      <div align="center" className="events">
         <div className="box">
             <img id="events-img" src={require('../Assets/events_top.jpg')} alt="Image of a workshop event"/>
             <div className="transparent-layer"></div>
@@ -66,8 +89,15 @@ class Events extends Component {
                 Unity workshops, and our very own hackathon!</p>
             </div>
         </div>
-        <div className="container">
-          <EventCards events={events}></EventCards>
+        <div className="container row">
+          <section align="center" id="upcoming-events" className="col-md events-section">
+            <h2>Upcoming Events</h2>
+            <EventCards events={upcoming}></EventCards>
+          </section>
+          <section align="center" id="past-events" className="col-md events-section">
+            <h2>Past Events</h2>
+            <EventCards events={past}></EventCards>
+          </section>
         </div>
       </div>
     );

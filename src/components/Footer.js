@@ -11,7 +11,7 @@ class Footer extends Component {
           				<a className="column social-media" rel="noopener" target="_blank" href="https://www.facebook.com/UniCsGameDev"><i className="fa fa-facebook fa-md" aria-hidden="true"></i></a>
           				<a className="column social-media" rel="noopener" target="_blank" href="https://gitlab.cs.man.ac.uk/unics-game-development"><i className="fa fa-gitlab fa-md" aria-hidden="true"></i></a>
         			</div>
-							<div className="footer-copyright text-center py-3">UniCS GameDev © 2020:
+							<div className="footer-copyright text-center py-3 text-muted">UniCS GameDev © 2020
   						</div>
       			</div>
     		</footer>

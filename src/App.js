@@ -15,14 +15,16 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Navbar></Navbar>
-        <Switch>
-          <Route path='/' component={Home} exact/>
-          <Route path='/events' component={Events} exact/>
-          <Route path='/tutorials' component={Tutorials} exact/>
-          <Route path='/team' component={Team} exact/>
-          <Route path='/gallery' component={Gallery} exact/>
-          <Route path='/contact' component={Contact} exact/>
-        </Switch>
+        <div className="content-body">
+          <Switch>
+            <Route path='/' component={Home} exact/>
+            <Route path='/events' component={Events} exact/>
+            <Route path='/tutorials' component={Tutorials} exact/>
+            <Route path='/team' component={Team} exact/>
+            <Route path='/gallery' component={Gallery} exact/>
+            <Route path='/contact' component={Contact} exact/>
+          </Switch>
+        </div>
         <Footer></Footer>
       </BrowserRouter>
     );
