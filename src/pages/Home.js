@@ -4,9 +4,9 @@ import './Home.css';
 class Home extends Component {
   render() {
     return(
-      <div className="home">
+      <div id="home">
         <div className="box">
-          <img id="home-img" src={require('../Assets/home_top.jpeg')} alt="GameDev Logo Image"/>
+          <img id="home-img" src={require('../Assets/home_top.jpeg')} alt="GameDev Logo"/>
           <p className="img-text">A sub-group of UniCS with a focus on Game Development</p>
         </div>
         <div id="about-us">
@@ -24,6 +24,22 @@ class Home extends Component {
           <svg viewBox="0 0 500 150" preserveAspectRatio="none">
             <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"></path>
           </svg>
+        </div>
+        <div id="team" align="center" className="container">
+          <h1>Meet the Team</h1>
+          <div className="row">
+            <div className="col-md team-member">
+              <img src={require('../Assets/Diana Dobrescu.jpg')} alt="Diana Dobrescu"/>
+              <p className="member-name">Diana Dobrescu</p>
+              <p className="member-role">Co-Director</p>
+            </div>
+
+            <div className="col-md team-member">
+              <img src={require('../Assets/Gurneet Bhatia.png')} alt="Gurneet Bhatia"/>
+                <p className="member-name">Gurneet Bhatia</p>
+                <p className="member-role">Co-Director</p>
+            </div>
+          </div>
         </div>
       </div>
     );

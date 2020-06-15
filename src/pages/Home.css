@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.home .box .img-text {
+#home .box .img-text {
   position: absolute;
   z-index: 999;
   margin: 0 auto;
@@ -43,4 +43,25 @@
 #wave path {
   stroke: none;
   fill: #FF9A75;
+}
+
+#team {
+  padding-top: 20px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.member-role {
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
 }
