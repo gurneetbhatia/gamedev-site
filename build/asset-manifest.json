@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06c0af81.chunk.css",
+    "main.js": "/static/js/main.7afdb766.chunk.js",
+    "main.js.map": "/static/js/main.7afdb766.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a947e826.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a947e826.js.map",
+    "static/js/2.287181bd.chunk.js": "/static/js/2.287181bd.chunk.js",
+    "static/js/2.287181bd.chunk.js.map": "/static/js/2.287181bd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.73217ce9a251926c5bc941cadb539787.js": "/precache-manifest.73217ce9a251926c5bc941cadb539787.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.06c0af81.chunk.css.map": "/static/css/main.06c0af81.chunk.css.map",
+    "static/js/2.287181bd.chunk.js.LICENSE.txt": "/static/js/2.287181bd.chunk.js.LICENSE.txt",
+    "static/media/Diana Dobrescu.jpg": "/static/media/Diana Dobrescu.9e4e8857.jpg",
+    "static/media/Gurneet Bhatia.png": "/static/media/Gurneet Bhatia.46537656.png",
+    "static/media/events_top.jpg": "/static/media/events_top.5a96267e.jpg",
+    "static/media/home_top.jpeg": "/static/media/home_top.a7ce31e2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a947e826.js",
+    "static/js/2.287181bd.chunk.js",
+    "static/css/main.06c0af81.chunk.css",
+    "static/js/main.7afdb766.chunk.js"
+  ]
+}
